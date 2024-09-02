@@ -1,0 +1,31 @@
+.zelda{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 1px;
+    text-decoration: none;
+}
+.zelda:visited{
+    color: inherit;
+}
+
+.zelda:hover{
+    color:pink;
+    background-color: blue;
+}
+body{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.wrapmain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.cambiarnombre{
+    display: flex;
+}
