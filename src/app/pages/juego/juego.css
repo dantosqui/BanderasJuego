@@ -1,0 +1,21 @@
+/* Add these styles to your CSS file */
+
+.flash-green {
+    animation: flashGreen 1s ease;
+}
+
+.flash-red {
+    animation: flashRed 1s ease;
+}
+
+@keyframes flashGreen {
+    0% { background-color: transparent; }
+    50% { background-color: green; }
+    100% { background-color: transparent; }
+}
+
+@keyframes flashRed {
+    0% { background-color: transparent; }
+    50% { background-color: red; }
+    100% { background-color: transparent; }
+}
